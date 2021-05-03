@@ -12,7 +12,7 @@ module mips_registers
 		$readmemb(".\\registers.mem", registers);
 	end
 
-	always @ (read_reg_1 or read_reg_2 or registers) begin
+	always @ (*) begin
 		read_data_1 <= registers[read_reg_1];
 		read_data_2 <= registers[read_reg_2];
 	end
