@@ -30,7 +30,7 @@ module control_unit
 					ALUOp = 4'b0011; 
 					// and
 				else if (func == 6'b001000) 
-					ALUOp = 4'b00000; 
+					ALUOp = 4'b0000; 
 					// jr	
 				else if (func == 6'b100111) 
 					ALUOp = 4'b0101; 
