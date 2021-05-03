@@ -1,0 +1,16 @@
+ALU.v
+ALU_testbench.v
+control_unit.v
+mips_core.v
+mips_data_mem.v
+mips_instr_mem.v
+mips_registers.v
+mips_testbench.v
+mip_data_mem_testnebch.v
+mux32bit_testbench.v
+mux5bit_testbench.v
+mux_2_1_32bit.v
+mux_for_destination_register.v
+sign_extender_16_to_32.v
+sign_extender_26_to_32.v
+sign_extender_testbench.v
